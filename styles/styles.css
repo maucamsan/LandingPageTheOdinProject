@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+
+}
+
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-image{
+    flex: 1 0 auto;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    display: flex;
+    list-style: none;
+}

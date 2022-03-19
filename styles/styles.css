@@ -3,7 +3,7 @@ body{
     padding:0;
     display:flex;
     flex-direction: column;
-    
+    flex-wrap: nowrap;
 }
 
 .header{
@@ -91,6 +91,7 @@ ul{
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 150px;
     /* flex-wrap: nowrap; */
 }
 
@@ -105,6 +106,26 @@ ul{
     border: 2px solid #3882F6;
     border-radius: 15px;
 }
+
+/* second division*/
+
+.second-container{
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+/* third division*/
+
+
+
+
 
 .footer{
     flex-shrink:0;

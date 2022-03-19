@@ -122,9 +122,35 @@ blockquote{
 }
 
 /* third division*/
+.third-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
 
+.banner-action-container{
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items :center;
+}
 
+.banner-action-container button{
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding: 9px;
+}
 
+.banner-action-container p{
+    color:#E5E7EB;
+}
+
+/* third division*/
 
 
 .footer{

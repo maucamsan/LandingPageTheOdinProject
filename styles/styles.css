@@ -71,3 +71,41 @@ ul{
     list-style: none;
     color: white;
 }
+
+/* first division*/
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-container h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.carousel-images-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    /* flex-wrap: nowrap; */
+}
+
+.car-image-des{
+    flex: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+}
+
+.car-image-des img{
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+
+.footer{
+    flex-shrink:0;
+}

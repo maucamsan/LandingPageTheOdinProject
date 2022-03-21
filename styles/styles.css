@@ -126,11 +126,11 @@ blockquote{
     display: flex;
     justify-content: center;
     padding: 50px;
+    color:#E5E7EB;
 }
 
 .banner-action-container{
     border-radius: 10px;
-    color: white;
     width: 900px;
     display: flex;
     flex-direction: row;
@@ -143,11 +143,8 @@ blockquote{
     border-radius: 10px;
     background-color: #3882F6;
     border: 2px solid white;
-    padding: 9px;
-}
-
-.banner-action-container p{
     color:#E5E7EB;
+    padding: 9px;
 }
 
 /* third division*/
